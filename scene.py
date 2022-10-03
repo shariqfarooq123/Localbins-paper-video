@@ -4,11 +4,11 @@ All the "scenes" are defined under one gigantic class "Main". This is generally 
 
 To generate a video, run the following command:
 
-mainim -pql scene.py Main
+manim -pql scene.py Main
 
 For high quality videos, use:
 
-mainim -pqh scene.py Main
+manim -pqh scene.py Main
 """
 from manim import *
 from blocks import Unet3DBlock, Unet2DBlock, AdaptiveBins, TransformerBlock
